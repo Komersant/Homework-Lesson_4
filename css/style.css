@@ -1,0 +1,167 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+li {
+	margin: 20px;
+	padding: 5px;
+}
+a {
+	border: 2px solid red;
+	background: khaki;
+}
+a:hover {
+	font-size: 22px;
+	background: blueviolet;
+}
+.header h2 {
+	font-size: 25px;
+	font-weight: 600;
+}
+.header p {
+	color: red;
+}
+.header p span {
+	font-size: 20px;
+	color: blue;
+}
+.header h3 {
+	font-size: 20px;
+	padding: 10px;
+	color: green;
+}
+.header li:hover {
+	color: springgreen;
+	font-size: 18px;
+}
+.header li a:hover {
+	color: springgreen;
+	font-size: 18px;
+}
+.block1 h2 {
+	font-size: 22px;
+}
+.block1 p {
+	padding: 5px;
+}
+.block1 .text {
+	color: teal;
+}
+.block1 p span {
+	font-size: 20px;
+	color: violet;
+}
+.block1 .solid-text {
+	border: 2px solid green;
+	background: thistle;
+	border-radius: 10px;
+}
+.block1 h3 {
+	font-size: 22px;
+	color: yellow;
+}
+.block2 h2 {
+	font-size: 22px;
+}
+.block2 p {
+	padding: 5px;
+}
+.block2 .text {
+	color: yellowgreen;
+	text-decoration: underline;
+}
+.block2 .basik {
+	font-size: 22px;
+	color: teal;
+	font-weight: 600;
+}
+.shpargalka .shpargalka__veb h2 {
+	color: green;
+}
+.shpargalka .shpargalka__veb p {
+	color: red;
+}
+.shpargalka .shargalka___two h2 {
+	color: green;
+	padding-bottom: 5px;
+}
+.shpargalka .shargalka___two p {
+	color: red;
+	padding: 5px;
+}
+.shpargalka .shpargalka__three h2 {
+	color: green;
+	padding-bottom: 5px;
+}
+.shpargalka .shpargalka__three p {
+	color: blue;
+}
+.shpargalka .shpargalka__four h2 {
+	color: green;
+	padding-bottom: 5px;
+}
+.shpargalka .shpargalka__four p {
+	color: pink;
+}
+.shpargalka .shpargalka__five h2 {
+	color: green;
+	padding-bottom: 5px;
+}
+.shpargalka .shpargalka__five p {
+	color: brown;
+}
+.shpargalka .shpargalka__five h3 {
+	color: rgb(89, 42, 165);
+	font-size: 30px;
+}
+.block3 h2 {
+	font-size: 25px;
+	color: goldenrod;
+	padding: 20px;
+}
+.block3 h3 {
+	font-size: 20px;
+	color: goldenrod;
+	padding: 10px;
+}
+.block3 > p {
+	color: rgb(32, 44, 218);
+	padding: 5px;
+}
+.block4 h2 {
+	font-size: 22px;
+	color: green;
+}
+.block4 p {
+	padding: 5px;
+}
+.block4 p {
+	color: brown;
+}
+.block4 p i {
+	color: green;
+	font-size: 18px;
+}
