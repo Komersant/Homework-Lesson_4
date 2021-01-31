@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap&subset=cyrillic-ext");
+@font-face {
+	font-family: "Tuesday Night";
+	src: url("../fonts/TuesdayNight-Regular.woff2") format("woff2"),
+		url("../fonts/TuesdayNight-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Capture Smallz";
+	src: url("../fonts/CaptureSmallz.woff2") format("woff2"), url("../fonts/CaptureSmallz.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 /* Стили обнуления */
 *,
 *::before,
@@ -25,143 +43,76 @@ h6 {
 img {
 	vertical-align: top;
 }
+body {
+	padding: 0px 30px;
+}
+.main p:nth-child(2n) {
+	color: blue;
+}
+.main p:nth-child(2n + 1) {
+	color: rgb(0, 255, 0);
+}
+.main li:nth-child(2n) {
+	color: rgb(10, 125, 179);
+}
+.main li:nth-child(2n + 1) {
+	color: rgb(197, 20, 79);
+}
+h1 {
+	font-family: Lobster;
+	padding: 20px 0px;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	text-align: center;
+	color: rgb(239, 58, 118);
+	text-shadow: 8px 8px 0px rgba(0,0,0,0.50);
+
+}
 li {
 	margin: 20px;
 	padding: 5px;
+	line-height: 1.56;
+	font-style: italic;
+	text-shadow: 10px 5px 2px rgb(218, 17, 5);
+}
+h2 {
+	display: inline-block;
+	font-family: Raleway;
+	font-size: 24px;
+	padding: 5px;
+	margin: 30px 0px;
+	line-height: 32px;
+	font-weight: 800;
+	color: rgb(91, 29, 161);
+	text-transform: lowercase;
+	border: 2px solid;
+	border-radius: 5px;
+	text-shadow: 10px 10px 3px rgb(19, 5, 50);
+}
+p {
+	padding: 5px;
+	color: #222;
+	font-size: 16px;
+	line-height: 1.56;
+	text-indent: 20px;
+	word-spacing: 10px;
+	font-family: "Capture Smallz";
+	text-shadow: 0px 0px 5px crimson, 0px 0px 6px chocolate;
+}
+img {
+	text-align: center;
+}
+.center {
+	text-align: center;
 }
 a {
-	border: 2px solid red;
-	background: khaki;
+	color: darkgreen;
 }
-a:hover {
-	font-size: 22px;
-	background: blueviolet;
-}
-.header h2 {
-	font-size: 25px;
-	font-weight: 600;
-}
-.header p {
-	color: red;
-}
-.header p span {
-	font-size: 20px;
-	color: blue;
-}
-.header h3 {
-	font-size: 20px;
-	padding: 10px;
-	color: green;
-}
-.header li:hover {
-	color: springgreen;
-	font-size: 18px;
-}
-.header li a:hover {
-	color: springgreen;
-	font-size: 18px;
-}
-.block1 h2 {
-	font-size: 22px;
-}
-.block1 p {
-	padding: 5px;
-}
-.block1 .text {
-	color: teal;
-}
-.block1 p span {
-	font-size: 20px;
-	color: violet;
-}
-.block1 .solid-text {
-	border: 2px solid green;
-	background: thistle;
-	border-radius: 10px;
-}
-.block1 h3 {
-	font-size: 22px;
-	color: yellow;
-}
-.block2 h2 {
-	font-size: 22px;
-}
-.block2 p {
-	padding: 5px;
-}
-.block2 .text {
-	color: yellowgreen;
-	text-decoration: underline;
-}
-.block2 .basik {
-	font-size: 22px;
-	color: teal;
-	font-weight: 600;
-}
-.shpargalka .shpargalka__veb h2 {
-	color: green;
-}
-.shpargalka .shpargalka__veb p {
-	color: red;
-}
-.shpargalka .shargalka___two h2 {
-	color: green;
-	padding-bottom: 5px;
-}
-.shpargalka .shargalka___two p {
-	color: red;
-	padding: 5px;
-}
-.shpargalka .shpargalka__three h2 {
-	color: green;
-	padding-bottom: 5px;
-}
-.shpargalka .shpargalka__three p {
-	color: blue;
-}
-.shpargalka .shpargalka__four h2 {
-	color: green;
-	padding-bottom: 5px;
-}
-.shpargalka .shpargalka__four p {
-	color: pink;
-}
-.shpargalka .shpargalka__five h2 {
-	color: green;
-	padding-bottom: 5px;
-}
-.shpargalka .shpargalka__five p {
-	color: brown;
-}
-.shpargalka .shpargalka__five h3 {
-	color: rgb(89, 42, 165);
-	font-size: 30px;
-}
-.block3 h2 {
-	font-size: 25px;
-	color: goldenrod;
-	padding: 20px;
-}
-.block3 h3 {
-	font-size: 20px;
-	color: goldenrod;
-	padding: 10px;
-}
-.block3 > p {
-	color: rgb(32, 44, 218);
-	padding: 5px;
-}
-.block4 h2 {
-	font-size: 22px;
-	color: green;
-}
-.block4 p {
-	padding: 5px;
-}
-.block4 p {
-	color: brown;
-}
-.block4 p i {
-	color: green;
-	font-size: 18px;
+.span {
+	padding: 10px 0px;
+	color: crimson;
+	font-family: Tuesday Night;
 }
